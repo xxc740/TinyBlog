@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=6.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,11 +45,17 @@
   <ItemGroup>
     <Compile Include="Base\BaseService.cs" />
     <Compile Include="Base\IBaseService.cs" />
+    <Compile Include="Blog\BlogArticleServices.cs" />
+    <Compile Include="Blog\IBlogArticleServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInfo\ISysUserInfoService.cs" />
     <Compile Include="UserInfo\SysUserInfoService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{b9a66d45-49ea-4ae0-9acf-9d94bb516f95}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{646bf0b8-d3f6-4e45-9e52-ab2429ceb6e2}</Project>
       <Name>Domain</Name>
@@ -55,6 +64,9 @@
       <Project>{ef6de278-cf9e-47bf-9585-4c6009042175}</Project>
       <Name>Repository</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

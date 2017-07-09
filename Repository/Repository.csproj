@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Base\BaseRepository.cs" />
     <Compile Include="Base\IBaseRepository.cs" />
+    <Compile Include="Blog\BlogArticleRepository.cs" />
+    <Compile Include="Blog\IBlogArticleRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInfo\ISysUserInfoRepository.cs" />
     <Compile Include="UserInfo\SysUserInfoRepository.cs" />

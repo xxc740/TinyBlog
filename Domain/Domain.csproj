@@ -50,9 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogDB.cs" />
+    <Compile Include="Map\BlogArticleMap.cs" />
     <Compile Include="Map\SysUserInfoMap.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\BlogArticle.cs" />
     <Compile Include="Models\SysUserInfo.cs" />
+    <Compile Include="Models\ViewModel\BlogArticleViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
