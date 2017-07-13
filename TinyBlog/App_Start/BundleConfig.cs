@@ -37,9 +37,13 @@ namespace TinyBlog
 
             bundles.Add(new ScriptBundle("~/js/metisMenu").Include("~/bower_components/metisMenu/dist/metisMenu.js"));
 
-            //bundles.Add(new StyleBundle("~/Content/css").Include(
-            //          "~/Content/bootstrap.css",
-            //          "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/js/index").Include("~/Scripts/JS/index.js"));
+
+            bundles.Add(new ScriptBundle("~/js/unobtrusive").Include("~/Scripts/jquery.validate.unobtrusive.min"));
+
+            bundles.Add(new ScriptBundle("~/js/wangEditor").Include("~/bower_components/wangEditor/release/wangEditor.js"));
+
+            bundles.Add(new ScriptBundle("~/js/InitEditor").Include("~/Scripts/JS/InitEditor.js"));
 
             bundles.Add(new StyleBundle("~/css/bootstrap").Include("~/bower_components/bootstrap/dist/css/bootstrap.css"));
 
@@ -50,6 +54,12 @@ namespace TinyBlog
             bundles.Add(new StyleBundle("~/css/metisMenu").Include("~/bower_components/metisMenu/dist/metisMenu.css"));
 
             bundles.Add(new StyleBundle("~/css/font-awesome").Include("~/bower_components/font-awesome/css/font-awesome.css"));
+
+            bundles.Add(new StyleBundle("~/css/index").Include("~/Content/CSS/index.css"));
+
+            bundles.Add(new StyleBundle("~/css/blogaticle").Include("~/Content/CSS/BlogArticleStyle.css", "~/Content/CSS/animate.css"));
+
+            bundles.Add(new StyleBundle("~/js/wangEditor").Include("~/bower_components/wangEditor/release/wangEditor.css"));
         }
     }
 }

@@ -4,11 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 博客后台管理系统</title>
-    @Styles.Render("~/css/tether")
-    @Styles.Render("~/css/bootstrap")
+    @*@Styles.Render("~/css/tether")
+    @Styles.Render("~/css/bootstrap")*@
     @Styles.Render("~/css/font-awesome")
     @Styles.Render("~/css/zui")
     @Styles.Render("~/css/metisMenu")
+    @Styles.Render("~/css/index")
     @*@Scripts.Render("~/bundles/modernizr")*@
 </head>
 <body>
@@ -48,10 +49,9 @@
     </footer>
 
     @Scripts.Render("~/js/jquery")
-    @Scripts.Render("~/js/tether")
-    @Scripts.Render("~/js/bootstrap")
     @Scripts.Render("~/js/zui")
     @Scripts.Render("~/js/metisMenu")
+    @Scripts.Render("~/js/index")
     @RenderSection("scripts", required: false)
 </body>
 </html>

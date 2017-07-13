@@ -35,6 +35,19 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -499,6 +512,93 @@
     <Content Include="bower_components\tether\src\js\shift.js" />
     <Content Include="bower_components\tether\src\js\tether.js" />
     <Content Include="bower_components\tether\src\js\utils.js" />
+    <Content Include="bower_components\wangEditor\.gitattributes" />
+    <Content Include="bower_components\wangEditor\.gitignore" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\public\favicon.ico" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\public\index.html" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\App.css" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\App.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\App.test.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\index.css" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\index.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\logo.svg" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\src\registerServiceWorker.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\.postcssrc.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\build.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\check-versions.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\dev-client.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\dev-server.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\utils.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\vue-loader.conf.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\webpack.base.conf.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\webpack.dev.conf.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\build\webpack.prod.conf.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\config\dev.env.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\config\index.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\config\prod.env.js" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\index.html" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\src\assets\logo.png" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\src\main.js" />
+    <Content Include="bower_components\wangEditor\example\demo\test-amd-main.js" />
+    <Content Include="bower_components\wangEditor\example\demo\test-amd.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-fullscreen.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-get-content.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-menus.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-mult.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-set-content.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-sperate.html" />
+    <Content Include="bower_components\wangEditor\example\demo\test-uploadimg.html" />
+    <Content Include="bower_components\wangEditor\example\favicon.ico" />
+    <Content Include="bower_components\wangEditor\example\icomoon\demo-files\demo.css" />
+    <Content Include="bower_components\wangEditor\example\icomoon\demo-files\demo.js" />
+    <Content Include="bower_components\wangEditor\example\icomoon\demo.html" />
+    <Content Include="bower_components\wangEditor\example\icomoon\fonts\icomoon.svg" />
+    <Content Include="bower_components\wangEditor\example\icomoon\Read Me.txt" />
+    <Content Include="bower_components\wangEditor\example\icomoon\style.css" />
+    <Content Include="bower_components\wangEditor\example\index.html" />
+    <Content Include="bower_components\wangEditor\example\server\index.js" />
+    <Content Include="bower_components\wangEditor\example\server\util.js" />
+    <Content Include="bower_components\wangEditor\gulpfile.js" />
+    <Content Include="bower_components\wangEditor\release\fonts\icomoon.svg" />
+    <Content Include="bower_components\wangEditor\release\wangEditor.css" />
+    <Content Include="bower_components\wangEditor\release\wangEditor.js" />
+    <Content Include="bower_components\wangEditor\release\wangEditor.min.css" />
+    <Content Include="bower_components\wangEditor\release\wangEditor.min.js" />
+    <Content Include="bower_components\wangEditor\src\fonts\icomoon.svg" />
+    <Content Include="bower_components\wangEditor\src\js\command\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\config.js" />
+    <Content Include="bower_components\wangEditor\src\js\editor\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\editor\upload\progress.js" />
+    <Content Include="bower_components\wangEditor\src\js\editor\upload\upload-img.js" />
+    <Content Include="bower_components\wangEditor\src\js\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\backColor\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\bold\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\code\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\droplist.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\emoticon\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\foreColor\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\head\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\img\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\italic\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\justify\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\link\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\list\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\menu-list.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\panel.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\quote\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\redo\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\strikethrough\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\table\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\underline\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\undo\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\menus\video\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\selection\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\text\index.js" />
+    <Content Include="bower_components\wangEditor\src\js\util\dom-core.js" />
+    <Content Include="bower_components\wangEditor\src\js\util\paste-handle.js" />
+    <Content Include="bower_components\wangEditor\src\js\util\poly-fill.js" />
+    <Content Include="bower_components\wangEditor\src\js\util\util.js" />
     <Content Include="bower_components\zui\assets\clipboard\clipboard.js" />
     <Content Include="bower_components\zui\assets\clipboard\clipboard.min.js" />
     <Content Include="bower_components\zui\assets\excanvas.js" />
@@ -735,6 +835,10 @@
     <Content Include="bower_components\zui\src\js\zui.migrate.1.2.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\animate.css" />
+    <Content Include="Content\CSS\BlogArticleStyle.css" />
+    <Content Include="Content\CSS\index.css" />
+    <Content Include="Scripts\JS\index.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -1079,6 +1183,65 @@
     <Content Include="bower_components\metisMenu\README.md" />
     <Content Include="bower_components\metisMenu\yarn.lock" />
     <Content Include="Areas\Admin\Views\BlogArticle\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogArticle\Add.cshtml" />
+    <Content Include="bower_components\wangEditor\.bower.json" />
+    <Content Include="bower_components\wangEditor\.eslintignore" />
+    <Content Include="bower_components\wangEditor\.eslintrc.json" />
+    <Content Include="bower_components\wangEditor\.npmignore" />
+    <Content Include="bower_components\wangEditor\bower.json" />
+    <Content Include="bower_components\wangEditor\docs\dev\README.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\01-getstart\01-demo.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\01-getstart\02-use-module.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\01-getstart\03-sperate.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\01-getstart\04-multi.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\02-content\01-set-content.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\02-content\02-get-content.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\03-config\01-menu.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\03-config\02-debug.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\03-config\03-onchange.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\03-config\04-z-index.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\04-uploadimg\01-show-tab.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\04-uploadimg\02-base64.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\04-uploadimg\03-upload-config.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\01-全屏-预览-查看源码.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\02-上传附件.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\03-markdown.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\04-xss.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\05-react.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\05-other\06-vue.md" />
+    <Content Include="bower_components\wangEditor\docs\usage\README.md" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\package.json" />
+    <Content Include="bower_components\wangEditor\example\demo\in-react\public\manifest.json" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\.babelrc" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\.editorconfig" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\package.json" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\src\App.vue" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\src\components\Editor.vue" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\src\components\Hello.vue" />
+    <Content Include="bower_components\wangEditor\example\demo\in-vue\static\.gitkeep" />
+    <Content Include="bower_components\wangEditor\example\icomoon\fonts\icomoon.eot" />
+    <Content Include="bower_components\wangEditor\example\icomoon\fonts\icomoon.ttf" />
+    <Content Include="bower_components\wangEditor\example\icomoon\fonts\icomoon.woff" />
+    <Content Include="bower_components\wangEditor\example\icomoon\selection.json" />
+    <Content Include="bower_components\wangEditor\example\README.md" />
+    <Content Include="bower_components\wangEditor\ISSUE.md" />
+    <Content Include="bower_components\wangEditor\LICENSE" />
+    <Content Include="bower_components\wangEditor\package.json" />
+    <Content Include="bower_components\wangEditor\README.md" />
+    <Content Include="bower_components\wangEditor\release\fonts\icomoon.eot" />
+    <Content Include="bower_components\wangEditor\release\fonts\icomoon.ttf" />
+    <Content Include="bower_components\wangEditor\release\fonts\icomoon.woff" />
+    <Content Include="bower_components\wangEditor\release\wangEditor.min.js.map" />
+    <Content Include="bower_components\wangEditor\src\fonts\icomoon.eot" />
+    <Content Include="bower_components\wangEditor\src\fonts\icomoon.ttf" />
+    <Content Include="bower_components\wangEditor\src\fonts\icomoon.woff" />
+    <Content Include="bower_components\wangEditor\src\js\.babelrc" />
+    <Content Include="bower_components\wangEditor\src\less\common.less" />
+    <Content Include="bower_components\wangEditor\src\less\droplist.less" />
+    <Content Include="bower_components\wangEditor\src\less\icon.less" />
+    <Content Include="bower_components\wangEditor\src\less\menus.less" />
+    <Content Include="bower_components\wangEditor\src\less\panel.less" />
+    <Content Include="bower_components\wangEditor\src\less\text.less" />
     <None Include="NLog.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -1090,6 +1253,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\JS\InitEditor.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -1111,6 +1275,7 @@
   <ItemGroup>
     <Folder Include="App_Data\Logs\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\BlogPic\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
   </ItemGroup>
